@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+.font-dgo {
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.font-pt-serif {
+    font-family: 'PT Serif', serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Dela Gothic One', cursive;
+}
+
+html {
+    height: 100vh;
+}
+
+.w3-padding-none {
+    padding: 0px;
+}
+
+.w3-margin-none {
+    margin: 0px;
+}
+
+.h-100v {
+    min-height: 100vh;
+}
+
+.h-75v {
+    min-height: 75vh;
+}
+
+.articles>article {
+    padding-top: 64px;
+}
+
+.articles .article-middles {
+    width: 50vw;
+    height: 50vh;
+}
+
+@media only screen and (max-width: 376px) {
+    .articles .article-middles {
+        width: 100vw !important;
+    }
+}
